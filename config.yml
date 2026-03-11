@@ -7,6 +7,7 @@ repositories:
     owner: "microsoft-foundry"
     repo: "foundry-samples-pr"
     snippet_repo: "foundry-samples"
+    sync_delay_hours: 24  # PR repo syncs to public repo once/day; wait before triggering doc updates
     team: "@microsoft-foundry/AI-Platform-Docs"
     short_name: "foundry-samples-pr"
     service_type: "ai"
